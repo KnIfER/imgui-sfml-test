@@ -67,26 +67,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\build\external\imgui-sfml\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">imgui-sfml.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">imgui-sfml</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\build\external\imgui-sfml\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">imgui-sfml.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">imgui-sfml</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">..\..\..\build\external\imgui-sfml\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">imgui-sfml.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">imgui-sfml</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">..\..\..\build\external\imgui-sfml\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">imgui-sfml.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">imgui-sfml</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;$(SfmlDir)include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;$(SfmlDir)include;</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,7 +119,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -136,10 +136,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -152,7 +152,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -169,10 +169,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -185,7 +185,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\yin\imgui-sfml-test\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\external\imgui-sfml;C:\yin\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,79 +216,19 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-F:\COD\NVPACK\CMake\bin\cmake.exe -HC:/yin/imgui-vlc -BC:/yin/imgui-vlc/build --check-stamp-file C:/yin/imgui-vlc/build/external/imgui-sfml/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\yin\SFML-2.4.2\cmake\Modules\FindSFML.cmake;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-F:\COD\NVPACK\CMake\bin\cmake.exe -HC:/yin/imgui-vlc -BC:/yin/imgui-vlc/build --check-stamp-file C:/yin/imgui-vlc/build/external/imgui-sfml/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\yin\SFML-2.4.2\cmake\Modules\FindSFML.cmake;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-F:\COD\NVPACK\CMake\bin\cmake.exe -HC:/yin/imgui-vlc -BC:/yin/imgui-vlc/build --check-stamp-file C:/yin/imgui-vlc/build/external/imgui-sfml/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\yin\SFML-2.4.2\cmake\Modules\FindSFML.cmake;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-F:\COD\NVPACK\CMake\bin\cmake.exe -HC:/yin/imgui-vlc -BC:/yin/imgui-vlc/build --check-stamp-file C:/yin/imgui-vlc/build/external/imgui-sfml/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/yin/imgui-vlc/external/imgui-sfml/CMakeLists.txt;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;F:\COD\NVPACK\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\yin\SFML-2.4.2\cmake\Modules\FindSFML.cmake;C:\yin\imgui-sfml-test\external\imgui-sfml\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\yin\imgui-sfml-test\build\external\imgui-sfml\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imgui-SFML.cpp" />
-    <ClCompile Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imgui.cpp" />
-    <ClCompile Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imgui_demo.cpp" />
-    <ClCompile Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imgui_draw.cpp" />
-    <ClInclude Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imconfig.h" />
-    <ClInclude Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imgui-SFML.h" />
-    <ClInclude Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imgui.h" />
-    <ClInclude Include="C:\yin\imgui-sfml-test\external\imgui-sfml\imgui_internal.h" />
-    <ClInclude Include="C:\yin\imgui-sfml-test\external\imgui-sfml\stb_rect_pack.h" />
-    <ClInclude Include="C:\yin\imgui-sfml-test\external\imgui-sfml\stb_textedit.h" />
-    <ClInclude Include="C:\yin\imgui-sfml-test\external\imgui-sfml\stb_truetype.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:\yin\imgui-sfml-test\build\ZERO_CHECK.vcxproj">
-      <Project>{508DCD24-6CF2-37C8-BF13-E4F3C4E76234}</Project>
-      <Name>ZERO_CHECK</Name>
-    </ProjectReference>
+    <ClCompile Include="..\..\..\external\imgui-sfml\imgui-SFML.cpp" />
+    <ClCompile Include="..\..\..\external\imgui-sfml\imgui.cpp" />
+    <ClCompile Include="..\..\..\external\imgui-sfml\imgui_demo.cpp" />
+    <ClCompile Include="..\..\..\external\imgui-sfml\imgui_draw.cpp" />
+    <ClInclude Include="..\..\..\external\imgui-sfml\imconfig.h" />
+    <ClInclude Include="..\..\..\external\imgui-sfml\imgui-SFML.h" />
+    <ClInclude Include="..\..\..\external\imgui-sfml\imgui.h" />
+    <ClInclude Include="..\..\..\external\imgui-sfml\imgui_internal.h" />
+    <ClInclude Include="..\..\..\external\imgui-sfml\stb_rect_pack.h" />
+    <ClInclude Include="..\..\..\external\imgui-sfml\stb_textedit.h" />
+    <ClInclude Include="..\..\..\external\imgui-sfml\stb_truetype.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

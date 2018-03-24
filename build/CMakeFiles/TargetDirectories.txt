@@ -1,5 +1,0 @@
-C:/yin/imgui-vlc/build/CMakeFiles/imgui-vlc.dir
-C:/yin/imgui-vlc/build/CMakeFiles/ALL_BUILD.dir
-C:/yin/imgui-vlc/build/CMakeFiles/ZERO_CHECK.dir
-C:/yin/imgui-vlc/build/external/imgui-sfml/CMakeFiles/imgui-sfml.dir
-C:/yin/imgui-vlc/build/external/imgui-sfml/CMakeFiles/ALL_BUILD.dir
