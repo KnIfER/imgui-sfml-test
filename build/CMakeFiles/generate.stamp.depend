@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/yin/imgui-vlc/CMakeLists.txt
+C:/yin/imgui-vlc/build/CMakeFiles/3.10.3/CMakeSystem.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+C:/yin/imgui-vlc/build/CMakeFiles/3.10.3/CMakeCCompiler.cmake
+C:/yin/imgui-vlc/build/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/yin/imgui-vlc/build/CMakeFiles/3.10.3/CMakeRCCompiler.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Compiler/MSVC-CXX.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-CXX.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/FindPkgConfig.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+F:/COD/NVPACK/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
