@@ -9,10 +9,10 @@ open in vs2015
 configure Windows environment variable and run.  
   
  
-#potplayer:  
+# potplayer:  
 ![image](https://github.com/KnIfER/imgui-sfml-ui-test/raw/master/screenshots/potplayer.gif)  
 
-#my test:  
+### my test:  
 ![image](https://github.com/KnIfER/imgui-sfml-ui-test/raw/master/screenshots/demo1.gif)  
 
 still a long way to go~  
