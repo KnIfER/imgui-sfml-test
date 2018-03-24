@@ -22,18 +22,14 @@ bool isScalingBottom = false;
 bool isScaling = false;
 bool isResized = false;
 int lastDownX, lastDownY;
-int cursorIndexerY;
-int cursorIndexerX;
+int cursorIndexerY, cursorIndexerX;
 //sf::Vector2<int> windowOldPos;
 //sf::Vector2u windowOldSize;
 //bool isIMGuiIntercepting = false;
 
 int main() {
 	std::cout << "asd" << std::endl;
-	//if (argc != 2) {
-	//   std::cout << "Usage: ./imgui-vlc filename" << std::endl;
-	//   return 0;
-	// }
+
 	const int width{ 800 };
 	const int height{ 600 };
 	const int borderWidth{ 10 };
@@ -43,7 +39,7 @@ int main() {
 	sf::VideoMode vmode(width, height, 8);
 	sf::RenderWindow window(vmode, "Imgui-sfml widgets test", 0);
 	window.setVerticalSyncEnabled(true);
-	//while (true) { std::cout << "while" << std::endl; }
+
 	ImGui::SFML::Init(window);
 
 	sf::Uint8 *frame = new sf::Uint8[width * height * 4];
@@ -169,7 +165,6 @@ int main() {
 				break;
 			case sf::Event::KeyPressed:
 				//std::cout << event.key.code << std::endl;
-				isMouseDragging = false;
 				break;
 			default:
 				break;
