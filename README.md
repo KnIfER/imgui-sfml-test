@@ -2,7 +2,7 @@
  https://en.sfml-dev.org/forums/index.php?topic=23834.msg162261#msg162261
 
 ### build:  
-download latested sfml build(2018.03.23)  
+download latest sfml build(2018.03.23)  
 edit macro variable $(SfmlDir) in imgui-sfml-test\build\imguit\PropertySheetmy.props as sfml-sdk's root dir.  
 open in vs2015  
 ### run:  
